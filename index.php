@@ -621,12 +621,6 @@
 
                     <input type="submit" class="submit" id="submit" value="Send message" />
 
-                    <!-- PHPMailer Code -->
-                    <?php
-                        $email = $_REQUEST['email'];
-                        $message = $_REQUEST['message'];
-                    ?>
-
                 </form>
                 <!--END Main form-->
 
